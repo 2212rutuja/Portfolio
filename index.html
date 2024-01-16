@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyPortfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/dd6f7f442c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <ul id="sidemenu">
+
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                
+            </nav>
+            <div class="header-text">
+                <h4>Hello!</h4>
+                <h2>I'm Rutuja,</h2>
+                <h2 >Full Stack Developer</h2>
+                <p class="brief">I'm a developer with passion for Web Design. I enjoy developing simple,<br> clean and responsive websites that provide real value to end users.</p>
+               <a href="#portfolio" ><button class='glowing-btn'><span class='glowing-txt'>Ch<span class='faulty-letter'>eck</span>Out</span></button></a> 
+               
+            </div>
+        </div>
+
+    </div>
+
+    <div id="about">
+        <div class="row">
+            <div class="about-col-1">
+                <img class="userimg" src="images/images/newuser.jpg" alt="my image" >
+            </div>
+            <div class="about-col-2">
+                <h2 class="subtitle">About Me</h2>
+                <p>I'm a driven Electronics and Telecommunication graduate with an impressive 8.95 CGPA. I'm skilled in programming languages like C, C++, and Java, and I'm also familiar with web development tools such as HTML, CSS, JavaScript, Bootstrap, and ReactJS. I've even built an Android app for blood bank management. I take my work seriously, always sticking to deadlines and being punctual. I'm excited to bring my technical skills and strong work ethic to a new role.</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Programming:</span><br> C, C++, Java, OOPS</li>
+                        <li><span>Web Development</span><br> HTML, CSS, JS, Bootstrap, React Js</li>
+                        <li><span>Android Development:</span><br> Android Studio, XML, Firebase</li>
+                        <li><span>Interpersonal:</span><br> Leadership, Communication, Collaboration, Self-management, Multi-disciplinary, Problem solving.</li>
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>AWS- Intern &nbsp; <i>(10/2021 - 11/2021)</i> </span><br> Successfully completed an intensive AWS internship program provided by AICTE EduSkills, offering comprehensive training in Amazon Web Services (AWS).<br>
+                             Acquired valuable hands-on experience in utilizing a wide range of AWS services, including ELB, EC2, ECS, S3, VPC, and more.<br>
+                             Demonstrated proficiency in AWS cloud infrastructure, architecture, security, and deployment models through the achievement of the AWS Cloud Foundation certification, substantiated by a digital badge.</li>
+                        
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span><i>2019 - 2023</i></span><br><b>Electronics and Telecommunication Engineer,</b> graduted from D.K.T.E's Textile and Engineering Institute, Ichalkarnji with 8.95 CGPA.</li>
+                        <li><span><i>2017 - 2019</i></span><br>HSC from M.G.S.K Vidhyala, Sangli with 76.77%</li>
+                        <li><span><i>2007 - 2017</i></span><br>SSC from A.B Patil School, Sangli  with 9.6 CGPA</li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="services">
+        <div class="container">
+            <h1 class="subtitle">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>Specializing in frontend web development, I bring a wealth of expertise to craft visually stunning and highly interactive user interfaces using ReactJS. With a focus on responsive design, I ensure that your website delivers a seamless and optimal user experience across various devices. My commitment extends to developing custom UI components that align with your brand identity, creating a unique and memorable online presence. </p>
+                    
+                </div>
+                <div>
+                    <i class="fa-brands fa-android"></i>
+                    <h2>Android App</h2>
+                    <p>In Android app development, I offer comprehensive services to bring your mobile app vision to life. Specializing in crafting high-quality and user-centric applications, I leverage my expertise to create robust solutions tailored to your unique requirements.From incorporating real-time data synchronization to integrating third-party APIs, I ensure that your app stands out with its innovative and dynamic capabilities.</p>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="subtitle">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/images/blood.png" alt="bloodbank">
+                    <div class="layer">
+                        <h3>Blood Bank App</h3>
+                        <p>Integrated Android application with Firebase, enabling seamless data management, secure user authentication and allowing donors and recipients to easily interact with the system.</p>
+                        <a href="https://drive.google.com/file/d/1E5QXiDm0X1DzRqnlFEhYKbM1isEiVpWV/view?usp=drivesdk" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/images/newsapp.png" alt="news app">
+                    <div class="layer">
+                        <h3>Daily News Website</h3>
+                        <p>Designed and developed a responsive news website with intuitive category-wise filtering, allowing users to easily discover and navigate through diverse news topics.</p>
+                        <a href="https://github.com/2212rutuja/NewsReactApp" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/images/flipkart_thumbnailflipkart.jpg" alt="flipkart">
+                    <div class="layer">
+                        <h3>Flipkart Clone</h3>
+                        <p>Developed a comprehensive Flipkart clone, meticulously replicating the functionality and design of the popular e-commerce platform</p>
+                        <a href="https://github.com/2212rutuja/flipkartclone" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="subtitle">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>rutujabhagate22@gmail.com</p>
+                    <p><i class="fa-solid fa-phone-volume"></i>+91 7887790698</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/rutujabhagate/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/2212rutuja"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.instagram.com/rutuja_bhagate/"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                    <a href="images/images/Resume_Rutuja_Bhagate.pdf" target="_blank" download class="btn btn-2" >Download Resume</a>
+                    
+                    
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn-2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+           
+        </div>
+
+        
+
+    </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents= document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+            }
+
+
+
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu"); 
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px";
+        }
+
+    </script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxHeVRlphkv3qAH1PIyi-IWpVMJywQFbxHmNxSOKTf9QUQbOiq9A9tmWmNM6yEUR3ca/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="Message sent sucessfully!"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },3000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+    
+</body>
+</html>
