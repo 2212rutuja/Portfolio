@@ -5,7 +5,7 @@ Welcome to my personal portfolio repository! This project showcases my skills, p
 ## About the Project
 
 This portfolio serves as an online resume and portfolio to highlight my skills, projects, and experiences. It provides a glimpse into my work, educational background, and contact information.
-Here is hte link of my portfolio deployed on Netlify :'https://portfoliorutujabhagate.netlify.app/'
+Here is hte link of my portfolio deployed on Netlify :'(https://personalportfolio22.netlify.app/)'
 
 ## Features
 
